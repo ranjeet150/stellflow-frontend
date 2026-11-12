@@ -2,7 +2,7 @@
   "name": "stellflow-frontend",
   "version": "0.1.0",
   "private": true,
-  "description": "StellFlow web app — Next.js 16 dashboard for invoices, milestone escrows and USDC payments on Stellar, with Freighter wallet connection (prototype; on-chain and backend wiring in progress)",
+  "description": "StellFlow web app \u2014 Next.js 16 dashboard for invoices, milestone escrows and USDC payments on Stellar, with Freighter wallet connection (prototype; on-chain and backend wiring in progress)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Steller-Flow/stellflow-frontend.git"
@@ -29,9 +29,9 @@
     "freighter"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
